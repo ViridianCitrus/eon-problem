@@ -1,0 +1,43 @@
+.search-bar {
+  background-color: transparent;
+  transition: all 0.2s ease-in;
+  z-index: 2;
+}
+
+.search-bar input {
+  background: transparent;
+  height: 100%;
+  outline: none;
+  transition: color 0.2s ease-in;
+  color: white;
+}
+
+.search-bar.selected {
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+
+.search-bar.selected input {
+  color: black;
+  transition: all 0.2s ease-in;
+}
+
+.search-icon {
+  transition: all 0.2s ease-in;
+}
+
+.search-icon.selected {
+  transition: all 0.2s ease-in;
+  filter: invert(1)
+}
+
+.search-results-container {
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+
+.search-result-row:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  transition: background-color 0.1s ease-in;
+}
